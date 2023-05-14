@@ -3,6 +3,11 @@
     src: url('HankenGrotesk-Medium.ttf');
 }
 
+@font-face {
+    font-family: 'HankGrotesk-light';
+    src: url(HankenGrotesk-VariableFont_wght.ttf);
+}
+
 /* ### Primary */
 
 /* - Light red: hsl(0, 100%, 67%)
@@ -43,17 +48,68 @@ body {
 .container {
     box-shadow: 5px 15px 15px #eee;
     min-width: 756px;
-    height: 450px;
+    height: 550px;
     border-radius: 40px;
 }
 
 .description{
     width: 378px;
-    height: 450px;
-    background: linear-gradient( hsla(256, 72%, 46%, 1), hsl(241, 81%, 54%));
+    height: 550px;
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
     border-radius: 40px;
 }
 
-.summary{
+.description > h3{
+    text-align: center;
+    position: relative;
+    top: 40px;
+    font-size: 25px;
+    color: #ccc;
+    font-family: 'HankGrotesk-light';
+    font-weight: 500;
+}
 
+.circle {
+    text-align: center;
+    position: relative;
+    top: 90px;
+    display: inline-block;
+    left: 87px;
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    min-width: 200px;
+    height: 200px;
+    border-radius: 150px;
+}
+
+.circle > h1 {
+    color: white;
+    font-size: 70px;
+    position: relative;
+    top: 45px;
+}
+
+.circle > h3 {
+    color: #ccc;
+    position: relative;
+    top: 45px;
+    font-weight: 500;
+}
+
+
+.result {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    top: 125px;
+
+}
+
+.result > h1 {
+    color: white;
+}
+
+.result > h3 {
+    color: #ccc;
+    font-weight: 500;
+    margin: 20px 50px;
 }
