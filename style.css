@@ -131,7 +131,7 @@ body {
 }
 
 .box{
-    margin: 20px 10px 10px 39px;
+    margin: 20px 27px 10px 28px;
 }
 
 #box {
@@ -255,7 +255,7 @@ body {
 
 
 button {
-    min-width: 330px;
+    min-width: 320px;
     height: 55px;
     border-radius: 30px;
     background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
@@ -264,7 +264,7 @@ button {
     font-size: 18px;
     font-weight: 500;
     margin-top: 30px;
-    margin-left: 25px;
+    margin-left: 8px;
 }
 
 .button {
