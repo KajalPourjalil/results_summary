@@ -42,6 +42,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    
 }
 
 
@@ -50,6 +52,10 @@ body {
     min-width: 756px;
     height: 550px;
     border-radius: 40px;
+    position: relative;
+    top: 150px;
+    display: flex;
+    justify-content: space-around;
 }
 
 .description{
@@ -112,4 +118,64 @@ body {
     color: #ccc;
     font-weight: 500;
     margin: 20px 50px;
+}
+
+.summary {
+    width: 378px;
+    height: 550px;
+}
+
+.summary > h1 {
+    margin: 30px;
+    font-size: 30px;
+}
+
+.box{
+    margin: 20px 10px 10px 39px;
+}
+
+#box {
+    min-width: 300px;
+    height: 65px;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+    margin: 5px 0px 8px 0px;
+}
+
+.reaction {
+   color: hsl(0, 100%, 67%);
+
+}
+
+.memory{
+   color: hsl(39, 100%, 56%);
+}
+
+.verbal{
+   color: hsl(166, 100%, 37%);
+}
+
+.visual{
+   color: hsl(234, 85%, 45%);
+}
+
+
+
+button {
+    min-width: 300px;
+    height: 55px;
+    border-radius: 30px;
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    color: white;
+    border: none;
+
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px ;
 }
