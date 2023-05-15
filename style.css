@@ -247,35 +247,24 @@ button {
 }
 
 /* Media Query for 375px */
-/* @media screen and (max-width: 375px) {
+@media screen and (max-width: 375px) {
     .container {
         width: 100%;
         height: auto;
         flex-direction: column;
         align-items: stretch;
-        padding: 20px;
+        top: 0;
+        position: relative;
+        left: 50%;
+        
+    }
+
+    .description {
+        border-top-left-radius: 0;
+        border-top-right-radius: 0
     }
     
-    .description, .summary {
-        width: 100%;
-        height: auto;
-    }
     
-    .circle {
-        margin: 20px auto;
-        left: 0;
-        right: 0;
-    }
     
-    .result {
-        top: 40px;
-    }
-    
-    .box {
-        margin: 10px 0px;
-    }
-    
-    .button {
-        margin: 20px auto;
-    }
-} */
+ 
+}
